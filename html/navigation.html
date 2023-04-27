@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <title>네비게이션 바 만들기</title>
+    <style>
+        nav {
+            background-color: #333;     /*nav단락배경색검정*/
+            
+            display: flex;                /*nav부분 줄바꿈 없음*/          
+            justify-content: space-between; /*글자 위치 양쪽 끝으로*/
+            padding: 10px;                  /*글자 크기 10픽셀*/
+        }
+        nav a{
+            color:#fff;                         /*글자 흰색*/
+            margin-right: 10px;                 /*글자 간격 오른쪽으로 10픽셀*/
+            text-decoration: none;              /*글자 밑줄 없애기*/
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div><a href="#">로고</a></div>
+        <div>
+            <a href="#">메뉴 1</a>
+            <a href="#">메뉴 2</a>
+            <a href="#">메뉴 3</a>
+        </div>
+    </nav>
+</body>
